@@ -1,0 +1,30 @@
+[project]
+name = "info-5940-codespace"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4~=4.13",
+    "chromadb==0.5.23",
+    "fsspec~=2025.9",
+    "ipykernel~=6.30",
+    "langchain~=0.2.17",
+    "langchain-chroma==0.1.4",
+    "langchain-community~=0.2.19",
+    "langchain-core~=0.2.43",
+    "langchain-openai~=0.1.25",
+    "langchain-text-splitters==0.2.4",
+    "litellm~=1.73",
+    "notebook~=7.4",
+    "numpy==1.26.4",
+    "openai~=1.109",
+    "openpyxl~=3.1",
+    "pandas~=2.3",
+    "posthog==3.25.0",
+    "pyarrow~=21.0",
+    "pydantic~=2.9",
+    "python-dotenv~=1.1",
+    "streamlit~=1.50",
+    "tiktoken~=0.7.0",
+]
